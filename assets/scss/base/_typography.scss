@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.text {
+    &--heading {
+        font-size: 54px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    &--sub-heading {
+        font-size: 35px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    &--link {
+        font-size: 14px;
+        font-family: Montserrat;
+        font-weight: 300;
+    }
+}
