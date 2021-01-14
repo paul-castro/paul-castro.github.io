@@ -1,11 +1,20 @@
 .header {
     padding: 15px 0;
 
+    @include respond(tab-land) {
+        height: 45px;
+    }
+
     & > .container {
         justify-content: space-between;
     }
 
     &__logo {
         height: 45px;
+
+        @include respond(tab-land) {
+            position: absolute;
+            margin: 0 32px;
+        }
     }
 }

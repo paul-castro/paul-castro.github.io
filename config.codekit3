@@ -9,6 +9,24 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/assets/css/hamburger.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/hamburger.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
 	"/assets/css/style.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -19,6 +37,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/images/intro-photo.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/images/intro-photo.ai",
+		"oF": 0
+		},
 	"/assets/images/intro-photo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -28,6 +54,14 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/assets/images/logo.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/images/logo.ai",
+		"oF": 0
 		},
 	"/assets/images/logo.png": {
 		"ft": 32768,

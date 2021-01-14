@@ -5,7 +5,8 @@
 
     @include respond(tab-land) {
         margin: 0 0;
-        padding: 0 32px;
+        // padding: 0 32px;
+        width: 100%;
     }
 }
 
@@ -16,10 +17,18 @@
         & > .container {
             justify-content: space-between;
             align-items: center;
+
+            @include respond(tab-land) {
+                flex-direction: column-reverse;
+            }
         }
 
         &--intro-photo {
             height: 60vh;
+
+            @include respond(tab-land) {
+                height: 40vh;   
+            }
         }
 
         &--intro {
@@ -29,6 +38,10 @@
             justify-content: center;
             color: $white;
             text-align: left;
+
+            @include respond(tab-land) {
+                margin-top: 30px;
+            }
         }
     }
 }
